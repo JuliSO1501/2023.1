@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+ 
 
 * {
     margin: 0;
@@ -83,3 +86,25 @@ header nav a:hover {
     height: 10px;
     border-radius: 50%;
 }
+    @media   (min-width:600px){
+        .logo{
+        display: none;}
+        .flex-nav{
+            flex-direction: column;
+        }
+        .flex-nav a{
+            display: flex;
+            justify-content: center;
+        }
+    }
+        .frase-1{
+            font-family: 'Alfa Slab One', serif;
+            font-size: 25pt;
+            padding: 50px;
+            padding-bottom: 100px;
+             
+        }
+        .foto{
+            padding-bottom: 20px;
+        }
+    
