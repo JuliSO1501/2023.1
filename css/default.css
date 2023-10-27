@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
  
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cookie&display=swap');
+ 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
  
 
@@ -102,9 +104,19 @@ header nav a:hover {
             font-size: 25pt;
             padding: 50px;
             padding-bottom: 100px;
+
              
         }
         .foto{
             padding-bottom: 20px;
+        }
+        .titulo-1{
+            font-family: 'Cookie', cursive;
+            font-size:25pt ;
+            color: darkkhaki;
+            padding-top: 50px;
+        }
+        .center{
+            text-align: center;
         }
     
